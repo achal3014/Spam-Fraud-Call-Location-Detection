@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .container {
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+} */
+
+
+button {
+    background: linear-gradient(90deg, #6a0dad, #7f00ff);
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    transition:  0.3s, transform 0.3s;
+    font-weight: 600;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #7f00ff, #6a0dad);
+    transform: translateY(-2px);
+}
+
